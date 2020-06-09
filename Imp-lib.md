@@ -3,7 +3,9 @@
 https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
 
 ### os Package
+
 os.Setenv(key, value)
+
 value := os.Getenv(key)
 
 ```go
@@ -26,7 +28,9 @@ func main() {
 ```
 
 ### go get github.com/joho/godotenv
+
 godotenv.Load(".env")
+
 STRONGEST_AVENGER=Thor
 
 ```go
@@ -58,7 +62,9 @@ func main() {
 ### go get github.com/spf13/viper
 
 viper.SetConfigFile(".env")
+
 viper.ReadInConfig()
+
 viper.Get(key)
 
 
