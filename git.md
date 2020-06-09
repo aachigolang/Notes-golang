@@ -10,3 +10,6 @@ git status
 
 
 git remote add origin https://github.com/aachigolang/Notes-golang.git
+
+//for passwordless entry
+git remote add origin git+ssh://git@github.com/aachigolang/Notes-golang.git
